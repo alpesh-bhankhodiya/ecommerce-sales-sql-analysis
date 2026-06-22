@@ -1,106 +1,95 @@
-# E-Commerce Sales Analysis using SQL
+# Ecommerce Sales Analysis
 
 ## Project Overview
 
-This project analyzes an E-Commerce dataset using SQL. The objective is to extract business insights related to sales performance, customer behavior, product performance, delivery efficiency, and revenue trends.
+This project analyzes an E-commerce dataset using SQL, Pandas, and Power BI to understand sales performance, customer behavior, product performance, and delivery metrics.
 
-The project uses three tables:
+## Dataset
+
+The project uses three datasets:
 
 * Customers
-* Products
 * Orders
+* Products
 
-## Database 
+## SQL Analysis
 
-### Customers
-
-* CustomerID
-* FirstName
-* LastName
-* Phone
-* City
-* State
-* PhoneBrand
-* OperatingSystem
-
-### Products
-
-* ProductID
-* ProductName
-* Category
-* Price
-* Rating
-* NumberOfPeopleRated
-
-### Orders
-
-* OrderID
-* CustomerID
-* ProductID
-* Quantity
-* OrderDate
-* DeliveryDate
-* DeliveryStatus
-
-## SQL Concepts Used
-
-* Joins
-* Aggregate Functions
-* GROUP BY
-* HAVING
-* Common Table Expressions (CTEs)
-* Window Functions
-* Subqueries
-* Date Functions
-* Ranking Functions
-* Business KPI Analysis
-
-## Business Questions Solved
-
-### Sales Analysis
+Performed business analysis using SQL:
 
 * Total Revenue
 * Total Orders
 * Average Order Value (AOV)
-* Revenue by Category
-* Top 5 Products by Revenue
-* Bottom 5 Products by Revenue
-* Category Revenue Contribution %
-
-### Customer Analysis
-
-* Total Customers
-* Top 10 Customers by Spending
-* Customer Count by State
-* Customer Count by City
-* Repeat Customers
-* Revenue by State
-* Revenue by Operating System (Android vs iOS)
-
-### Product Analysis
-
-* Revenue by Product
-* Highest Rated Products
-* Products Above Average Revenue
-* Product Revenue Ranking
-* Top 3 Products within Each Category
-
-### Time Analysis
-
+* Category-wise Revenue
+* Top Customers
+* Top Products by Revenue
 * Monthly Revenue Trend
-* Busiest Month
-* Busiest Day of Week
-* Peak Revenue Hour
-
-### Delivery Analysis
-
-* Average Delivery Time
+* Revenue by State
 * Cancellation Rate
-* Revenue Lost Due to Cancelled Orders
+* Revenue Lost Due to Cancellation
+
+## Pandas Analysis
+
+Performed data cleaning and analysis using Pandas:
+
+* Data Understanding
+* Null Value Check
+* Date Conversion
+* Data Merging
+* KPI Analysis
+* Product Analysis
+* Customer Analysis
+* Time-based Analysis
+* Delivery Analysis
+
+## Power BI Dashboard
+
+Created interactive dashboards for business insights:
+
+### Executive Dashboard
+
+* Total Revenue
+* Total Orders
+* Total Customers
+* AOV
+* Monthly Revenue Trend
+
+### Customer Dashboard
+
+* Top Customers
+* Revenue by State
+* Revenue by City
+* Android vs iOS Revenue
+
+### Product Dashboard
+
+* Top Products
+* Category Revenue
+* Product Ratings
+* Revenue vs Rating
+
+### Delivery Dashboard
+
+* Average Delivery Days
+* Cancellation Rate
+* Revenue Lost Due to Cancellation
 
 ## Tools Used
 
-* PostgreSQL
 * SQL
+* Python (Pandas)
+* Power BI
+* Microsoft Excel
 
+## Key Insights
 
+* Identified top revenue-generating products.
+* Analyzed customer spending patterns.
+* Measured monthly business growth.
+* Evaluated delivery performance and cancellation trends.
+* Created business-ready dashboards for decision-making.
+
+## Project Files
+
+* ecommerce Sales SQL project.sql
+* ecommerce_sales_pandas_analysis.py
+* Ecommerce Dashboard.pbix
